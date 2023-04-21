@@ -1,0 +1,64 @@
+@import "./partials/variables";
+@import "./partials/reset";
+
+/* FLEXBOX */
+
+.cabecera {
+    grid-area: cabecera;
+    font-family: "terminator real nfi";
+    height: 200px;
+    background-image: url('../Media/Image/Bosque-familia.jpg');
+    background-position: 0;
+    background-size: cover;
+h1 {
+    color: black;
+    font-size: $fontSizeBig;
+    padding-left: 30px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+h4 {
+    color: rgb(5, 3, 3);
+    font-size: $fontSizeSmall;
+    padding-left: 30px;
+}
+}
+.navbar {
+    grid-area: navbar;
+    background-image: linear-gradient(to right, #dfd0b1, #627e7e);
+   
+li {
+    padding: 0 10px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    padding: 1px;  
+    font-size: 1.2em; 
+}
+a:hover {
+    background-color: rgba(224, 244, 228, 0.757);
+    border-radius: 5px;
+}
+}
+.dropdown-menu {
+    background-image: linear-gradient(to right, #dfd0b1, #627e7e);
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+@import "partials/queries";
