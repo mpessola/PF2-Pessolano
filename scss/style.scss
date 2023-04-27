@@ -58,7 +58,14 @@ h2 {
     text-align: center;
     font-family: monospace;
 }
-
+h3 {
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
+}
+p {
+    padding: 10px;
+}
 
 
 /* ESTILOS INICIO */
@@ -104,13 +111,37 @@ div {
 
 /* ESTILOS NOSOTROS */
 
+.center {
+    padding-left: 10px;
+}
+
 /* ESTILOS CONTACTOS */
 
-/* ESTILO SERVICIOS */
+.formulario {
+    padding: 30px;
+}
+.mapa {
+    padding: 20px;
+}
 
 /* ESTILO SERVICIOS */
 
-/* ESTILO REGI */
+.foto1 {
+    display: flex;
+    margin-left: 1000px;
+}
+
+/* ESTILO CLIENTES */
+
+.formulario-3 {
+    padding: 30px
+}
+
+/* ESTILO REGISTRARME */
+
+.formulario-2 {
+    padding: 30px
+}
 
 
 @import "partials/queries";
