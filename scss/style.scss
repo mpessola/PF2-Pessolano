@@ -76,7 +76,6 @@ p {
     background-color: none;
     padding: 5px;
     display: flex;
-    
     justify-content: center;
 div {
     width: 250px;
@@ -112,8 +111,15 @@ div {
 
 /* ESTILOS NOSOTROS */
 
+.videonosotros {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 
-
+.videonosotros video {
+    width: 70%;
+}
 
 /* ESTILOS CONTACTOS */
 
@@ -144,7 +150,10 @@ div {
 
 /* ESTILO SERVICIOS */
 
-
+.informacion {
+    display: flex;
+    padding: 20px;
+}
 
 /* ESTILO CLIENTES */
 

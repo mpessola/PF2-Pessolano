@@ -21,12 +21,11 @@ body {
 
 .footer-container {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
+  text-decoration: none;
   color: white;
-  align-items: center;
   justify-content: center;
   height: 80px;
   font-size: smaller;
-  text-decoration: none;
   padding-top: 10px;
 }
 
@@ -143,6 +142,16 @@ p {
 }
 
 /* ESTILOS NOSOTROS */
+.videonosotros {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.videonosotros video {
+  width: 70%;
+}
+
 /* ESTILOS CONTACTOS */
 .seccion1 {
   display: flex;
@@ -173,6 +182,11 @@ p {
 }
 
 /* ESTILO SERVICIOS */
+.informacion {
+  display: flex;
+  padding: 20px;
+}
+
 /* ESTILO CLIENTES */
 .formulario-3 {
   padding: 30px;
@@ -187,6 +201,20 @@ p {
 @media screen and (max-width: 600px) {
   .contenedor-iconos {
     flex-direction: column;
+    align-items: center;
+  }
+  .informacion {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 600px) {
+  .contenedor-iconos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .informacion {
+    justify-content: center;
     align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */

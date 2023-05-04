@@ -6,5 +6,20 @@
         flex-direction: column;
         align-items: center;
     }
+    .informacion {
+        justify-content: center;
+        align-items: center;
+    }
+}
 
+@media screen and (min-width: 600px) {
+
+    .contenedor-iconos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .informacion {
+        justify-content: center;
+        align-items: center;
+    }
 }
