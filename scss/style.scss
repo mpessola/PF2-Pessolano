@@ -30,6 +30,7 @@ h4 {
     top: 0;
     z-index: 99;
     padding-right: 40px;
+    padding-left: 20px;
 li {
     padding: 0 10px;  
     font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +48,11 @@ a:hover {
 }
 .dropdown-toggle {
     color: white;
+}
+.navbar-brand {
+    font-family: "terminator real nfi";
+    color: black;
+    padding-top: 5px;
 }
 }
 .dropdown-menu {
@@ -67,7 +73,6 @@ p {
     padding: 10px 20px 10px 20px;
     text-align: justify;
 }
-
 
 /* ESTILOS INICIO */
 
@@ -116,7 +121,6 @@ div {
     justify-content: center;
     padding-bottom: 20px;
 }
-
 .videonosotros video {
     width: 70%;
 }

@@ -58,6 +58,7 @@ body {
   top: 0;
   z-index: 99;
   padding-right: 40px;
+  padding-left: 20px;
 }
 .navbar li {
   padding: 0 10px;
@@ -76,6 +77,11 @@ body {
 }
 .navbar .dropdown-toggle {
   color: white;
+}
+.navbar .navbar-brand {
+  font-family: "terminator real nfi";
+  color: black;
+  padding-top: 5px;
 }
 
 .dropdown-menu {
