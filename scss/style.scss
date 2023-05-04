@@ -29,7 +29,7 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 99;
-         
+    padding-right: 40px;
 li {
     padding: 0 10px;  
     font-family: Arial, Helvetica, sans-serif;
@@ -64,18 +64,19 @@ h3 {
     text-align: center;
 }
 p {
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
 }
 
 
 /* ESTILOS INICIO */
 
 .contenedor-iconos {
-    grid-area: seccion4;
     width: 100%;
     background-color: none;
     padding: 5px;
     display: flex;
+    
     justify-content: center;
 div {
     width: 250px;
@@ -111,25 +112,39 @@ div {
 
 /* ESTILOS NOSOTROS */
 
-.center {
-    padding-left: 10px;
-}
+
+
 
 /* ESTILOS CONTACTOS */
 
-.formulario {
-    padding: 30px;
+.seccion1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+}
+.seccion1 input, textarea {
+    width: 100%;
+    margin: 3px;
+    padding: 5px;
+    font-size: .9rem;
+    border: 1px solid;
+    border-radius: 3px;   
+    border-color: white;
+}
+.seccion1 textarea {
+    resize: vertical;
+    height: 200px;
 }
 .mapa {
     padding: 20px;
+    display: flex;
+    width: 100%;
 }
 
 /* ESTILO SERVICIOS */
 
-.foto1 {
-    display: flex;
-    margin-left: 1000px;
-}
+
 
 /* ESTILO CLIENTES */
 

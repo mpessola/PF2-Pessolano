@@ -10,6 +10,10 @@
     src: url(../Fonts/terminator\ real\ nfi.ttf)
 }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin: auto;
     background: rgb(251,251,251);
     background: linear-gradient(309deg, rgba(251,251,251,1) 22%, rgba(182,214,197,1) 59%, rgba(168,212,188,1) 59%, rgba(219,244,230,1) 83%, rgba(255,255,255,1) 100%);
     background-size: cover;
