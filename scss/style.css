@@ -14,9 +14,16 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  background: rgb(251, 251, 251);
-  background: linear-gradient(309deg, rgb(251, 251, 251) 22%, rgb(182, 214, 197) 59%, rgb(168, 212, 188) 59%, rgb(219, 244, 230) 83%, rgb(255, 255, 255) 100%);
+  background-color: whitesmoke;
+  /* background: rgb(251,251,251);
+  background: linear-gradient(309deg, rgba(251,251,251,1) 22%, rgba(182,214,197,1) 59%, rgba(168,212,188,1) 59%, rgba(219,244,230,1) 83%, rgba(255,255,255,1) 100%); */
   background-size: cover;
+}
+
+.linea {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .footer-container {
@@ -31,10 +38,10 @@ body {
 
 /* FLEXBOX */
 .cabecera {
-  grid-area: cabecera;
   font-family: "terminator real nfi";
-  height: 200px;
-  background-image: url("../Media/Image/Bosque-familia.jpg");
+  height: 230px;
+  background-image: url("../Media/Image/depositphotos_25379303-stock-illustration-generations-of-families.jpeg");
+  /* background-image: url('../Media/Image/Bosque-familia.jpg'); */
   background-position: 0;
   background-size: cover;
 }
@@ -50,10 +57,16 @@ body {
   font-size: 20px;
   padding-left: 30px;
 }
+.cabecera .logo {
+  display: flex;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
 
 .navbar {
-  grid-area: navbar;
-  background-image: linear-gradient(to right, #dfd0b1, #627e7e);
+  background-color: whitesmoke;
+  /* background-image: linear-gradient(to right, #dfd0b1, #627e7e); */
   position: sticky;
   top: 0;
   z-index: 99;
@@ -72,20 +85,22 @@ body {
   font-size: 1.1em;
 }
 .navbar a:hover {
-  background-color: rgba(224, 244, 228, 0.757);
+  background-color: white;
   border-radius: 5px;
 }
 .navbar .dropdown-toggle {
-  color: white;
+  color: red;
 }
 .navbar .navbar-brand {
   font-family: "terminator real nfi";
   color: black;
   padding-top: 5px;
+  font-size: medium;
 }
 
 .dropdown-menu {
-  background-image: linear-gradient(to right, #dfd0b1, #627e7e);
+  background-color: whitesmoke;
+  /* background-image: linear-gradient(to right, #dfd0b1, #627e7e); */
 }
 
 h2 {

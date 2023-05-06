@@ -4,10 +4,10 @@
 /* FLEXBOX */
 
 .cabecera {
-    grid-area: cabecera;
     font-family: "terminator real nfi";
-    height: 200px;
-    background-image: url('../Media/Image/Bosque-familia.jpg');
+    height: 230px;
+    background-image: url('../Media/Image/depositphotos_25379303-stock-illustration-generations-of-families.jpeg');
+    /* background-image: url('../Media/Image/Bosque-familia.jpg'); */
     background-position: 0;
     background-size: cover;
 h1 {
@@ -22,10 +22,16 @@ h4 {
     font-size: $fontSizeSmall;
     padding-left: 30px;
 }
+.logo {
+    display: flex;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
 }
 .navbar {
-    grid-area: navbar;
-    background-image: linear-gradient(to right, #dfd0b1, #627e7e);
+    background-color: whitesmoke;
+    /* background-image: linear-gradient(to right, #dfd0b1, #627e7e); */
     position: sticky;
     top: 0;
     z-index: 99;
@@ -43,20 +49,22 @@ a {
     font-size: 1.1em; 
 }
 a:hover {
-    background-color: rgba(224, 244, 228, 0.757);
+    background-color: white;
     border-radius: 5px;
 }
 .dropdown-toggle {
-    color: white;
+    color: red;
 }
 .navbar-brand {
     font-family: "terminator real nfi";
     color: black;
     padding-top: 5px;
+    font-size: medium;
 }
 }
 .dropdown-menu {
-    background-image: linear-gradient(to right, #dfd0b1, #627e7e);
+    background-color: whitesmoke;
+    /* background-image: linear-gradient(to right, #dfd0b1, #627e7e); */
 }
 h2 {
     padding: 20px;
@@ -100,6 +108,7 @@ div {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0px 0px 40px -15px black;
+    
 }
 .boton {
     margin-top: 30px;
@@ -111,7 +120,6 @@ div {
     color: rgb(255, 102, 0);
     font-weight: bold;
     font-size: 1.3em;
-    
 }
 
 /* ESTILOS NOSOTROS */
